@@ -1,0 +1,11 @@
+<div class="status">
+    <div class="status__item" *ngFor="let item of status" [class._red]="item.id == 2">
+        <span class="material-icons">{{item.icon}}</span>
+        <div class="status__list">
+            <div class="status__name">{{item.title}}</div>
+            <div class="status__desc">{{item.desc}}</div>
+        </div>    
+        <span class="material-icons status__icon">{{item.icons}}</span>
+    </div>
+</div>
+    

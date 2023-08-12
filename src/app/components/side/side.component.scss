@@ -1,0 +1,31 @@
+@import 'angular';
+.side {
+
+    &__title {
+        color: #595085;
+        font-family: $ff;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    &__sid {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__item {
+        
+        border-radius: 8px;
+        background: #F5F9F9;
+        padding: 8px 10px;
+    }
+
+    &__desc {
+        color: #479696;
+        font-family: $ff;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
