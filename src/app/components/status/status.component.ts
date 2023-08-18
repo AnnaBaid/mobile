@@ -20,6 +20,55 @@ export class StatusComponent {
       title: 'Current Transist: 3rd House',
       desc: 'This is demonstrate siblings, hobbies, efforts, confidence, friends and short tr...',
       icons: 'chevron_right'
+    },
+    {
+      id: 1,
+      icon: 'schedule',
+      title: 'Current Transist: 3rd House',
+      desc: 'This is demonstrate siblings, hobbies, efforts, confidence, friends and short tr...',
+      icons: 'chevron_right'
+    },
+    {
+      id: 2,
+      icon: 'schedule',
+      title: 'Current Transist: 3rd House',
+      desc: 'This is demonstrate siblings, hobbies, efforts, confidence, friends and short tr...',
+      icons: 'chevron_right'
+    },
+    {
+      id: 1,
+      icon: 'schedule',
+      title: 'Current Transist: 3rd House',
+      desc: 'This is demonstrate siblings, hobbies, efforts, confidence, friends and short tr...',
+      icons: 'chevron_right'
+    },
+    {
+      id: 2,
+      icon: 'schedule',
+      title: 'Current Transist: 3rd House',
+      desc: 'This is demonstrate siblings, hobbies, efforts, confidence, friends and short tr...',
+      icons: 'chevron_right'
+    },
+    {
+      id: 1,
+      icon: 'schedule',
+      title: 'Current Transist: 3rd House',
+      desc: 'This is demonstrate siblings, hobbies, efforts, confidence, friends and short tr...',
+      icons: 'chevron_right'
+    },
+    {
+      id: 2,
+      icon: 'schedule',
+      title: 'Current Transist: 3rd House',
+      desc: 'This is demonstrate siblings, hobbies, efforts, confidence, friends and short tr...',
+      icons: 'chevron_right'
+    },
+    {
+      id: 1,
+      icon: 'schedule',
+      title: 'Current Transist: 3rd House',
+      desc: 'This is demonstrate siblings, hobbies, efforts, confidence, friends and short tr...',
+      icons: 'chevron_right'
     }
   ]
 }

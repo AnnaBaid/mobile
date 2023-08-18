@@ -4,6 +4,12 @@
     grid-template-rows: 1fr 1fr;
     gap: 10px;    
     margin-bottom: 40px;
+    @include mobile {
+        grid-template-columns: 1fr 1fr;
+    }
+    @include tablet {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
     &__item {
         display: flex;

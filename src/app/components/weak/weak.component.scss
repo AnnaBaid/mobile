@@ -1,0 +1,33 @@
+@import 'angular';
+
+.weak {
+    margin-bottom: 40px;
+
+    &__title {
+        color: #595085;
+        font-family: $ff;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    &__sid {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__item {
+
+        border-radius: 8px;
+        background: #FFF4F4;
+        padding: 8px 10px;
+    }
+
+    &__desc {
+        color: #FF7E73;
+        font-family: $ff;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}

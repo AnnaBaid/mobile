@@ -1,0 +1,94 @@
+@import 'angular';
+
+.report {
+    display: block;
+    &__title {
+        color: #595085;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 20px;    
+
+        @include tablet {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+    &__item {        
+        display: block;
+        gap: 10px;
+        padding:20px;
+        border-radius: 15px;
+        background: #F6F5FB;
+        max-width: 153px;
+
+        &._green {
+            background: #F5F9F9;
+            .report__name {
+                color: #479696;
+            }
+            .report__desc {
+                color: #8DAEAE;
+            }            
+            .material-icons {
+                color: #479696;
+            }
+
+        }
+
+        &._red {
+            background: #FFF4F4;
+
+            .report__name {
+                color: #FF5648;
+            }
+
+            .report__desc {
+                color: #A27A7A;
+            }
+
+            .material-icons {
+                color: #FF5648;
+            }
+        }
+        &._pink {
+            background: #FDF9FB;
+        
+            .report__name {
+                color: #C93F8D;
+            }        
+            .report__desc {
+                color: #E791BE;
+            }        
+            .material-icons {
+                color: #C93F8D;
+            }
+        }
+    }
+
+    &__name {
+        color: #403572;
+        font-family: $ff;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    &__desc {
+        color: #403572;
+        font-family: $ff;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .material-icons {
+        color: #3D3270;
+    }
+}

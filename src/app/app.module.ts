@@ -14,6 +14,8 @@ import { StatusComponent } from './components/status/status.component';
 import { ProgresComponent } from './components/progres/progres.component';
 import { InfoComponent } from './components/info/info.component';
 import { SideComponent } from './components/side/side.component';
+import { WeakComponent } from './components/weak/weak.component';
+import { ReportsComponent } from './components/reports/reports.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { SideComponent } from './components/side/side.component';
     StatusComponent,
     ProgresComponent,
     InfoComponent,
-    SideComponent
+    SideComponent,
+    WeakComponent,
+    ReportsComponent,
   ],
   imports: [
     BrowserModule,

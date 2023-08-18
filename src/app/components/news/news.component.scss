@@ -1,6 +1,7 @@
 @import 'angular';
 .news {
     margin-bottom: 40px;
+    
 
     &__title {
         color: $dark-purple;
@@ -14,6 +15,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+        @include mobile {
+            grid-template-columns: 1fr 1fr;
+        }
+    
+        @include tablet {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
     }
 
     &__item {
